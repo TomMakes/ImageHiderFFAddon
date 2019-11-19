@@ -4,7 +4,7 @@ var imageGallery = document.images;
 // Replaces all the images on the webpage with grey boxes.
 function hideAllImages() {
   for(var i=0; i < imageGallery.length; i++) {
-    imageGallery[i].src = "https://www.nwwoodgallery.com/sites/default/files/styles/square/public/field/image/brand/thoe.jpg?itok=F-l3B5Di&c=ad7ecc07621b71c24fef9c53bef07d32";
+    imageGallery[i].src = "https://steamuserimages-a.akamaihd.net/ugc/858351445637712318/F98B1E3CDDAD0994EDDC78945349B80EB26C0A42/";
   }
 }
 document.body.style.border = "5px solid blue";

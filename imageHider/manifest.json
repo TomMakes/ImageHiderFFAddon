@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Borderify",
+  "name": "ImageHider",
   "version": "1.0",
 
   "description": "Changes all images on a webpage into grey boxes until clicked again.",
@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["borderify.js"]
+      "js": ["hider.js"]
     }
   ]
 
